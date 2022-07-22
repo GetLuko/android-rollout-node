@@ -6,7 +6,7 @@
   "main": "build/src/execAndroidRollout.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GetLuko/mobile-release-process"
+    "url": "https://github.com/GetLuko/android-rollout-node"
   },
   "bin": {
     "android-rollout-node": "bin/cli"
