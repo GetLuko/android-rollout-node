@@ -13,5 +13,5 @@ yarn add @getluko/android-rollout-node --dev
 2. Run the script
 
 ```
-npx android-rollout-node com.package.app production ./android/app/apiKeyFile.json
+npx android-rollout-node com.package.app production ./api-google-service_account.json
 ```
