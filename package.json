@@ -1,23 +1,22 @@
 {
   "name": "@getluko/android-rollout-node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "luko",
   "description": "Script using google api to automatically increment release percentage rollout",
-  "main": "build/src/execAndroidRollout.js",
+  "main": "./build/src/execAndroidRollout.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/GetLuko/android-rollout-node"
   },
   "bin": {
-    "android-rollout-node": "bin/cli"
+    "android-rollout-node": "./build/src/execAndroidRollout.js"
   },
   "scripts": {
     "test": "jest",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "prettier": "prettier --write 'src/**/*.ts'",
-    "build": "tsc --build --force",
-    "play": "./bin/cli"
+    "build": "tsc --build --force"
   },
   "keywords": ["android", "release", "rollout"],
   "license": "MIT",
